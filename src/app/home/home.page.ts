@@ -4,9 +4,12 @@ import {
   IonToolbar,
   IonTitle,
   IonContent,
+  IonItem,
+  IonList,
+  IonInput,
+  IonButton,
 } from '@ionic/angular/standalone';
 import { EmpleadoHonorariosComponent } from '../empleado-honorarios/empleado-honorarios.component';
-
 
 @Component({
   selector: 'app-home',
@@ -19,6 +22,10 @@ import { EmpleadoHonorariosComponent } from '../empleado-honorarios/empleado-hon
     IonTitle,
     IonContent,
     EmpleadoHonorariosComponent,
+    IonList,
+    IonItem,
+    IonInput,
+    IonButton,
   ],
 })
 export class HomePage {

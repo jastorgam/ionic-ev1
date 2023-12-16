@@ -1,0 +1,50 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Triangulo</ion-card-title>
+    <ion-img src="assets/images/triangulo.jpg"></ion-img>
+    <ion-card-subtitle>Cáculo de Perímetro</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-input
+          labelPlacement="floating"
+          required="true"
+          type="number"
+          [(ngModel)]="ladoA"
+        >
+          <div slot="label">Lado A <ion-text color="danger">*</ion-text></div>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          labelPlacement="floating"
+          required="true"
+          type="number"
+          [(ngModel)]="ladoB"
+        >
+          <div slot="label">Lado B <ion-text color="danger">*</ion-text></div>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input
+          labelPlacement="floating"
+          required="true"
+          type="number"
+          [(ngModel)]="ladoC"
+        >
+          <div slot="label">Lado C <ion-text color="danger">*</ion-text></div>
+        </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-button expand="block" (click)="calcularPerimetro()"
+          >Calcular Perímetro</ion-button
+        >
+      </ion-item>
+      <ion-item *ngIf="perimetro && perimetro !== 0">
+        El perimetro es {{ perimetro | number : "1.2-2" }}
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>

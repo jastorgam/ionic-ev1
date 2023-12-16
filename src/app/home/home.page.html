@@ -1,24 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Blank </ion-title>
+    <ion-title> Perímetro </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Perímetro</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    Hola {{ nombre}}
-    <strong>Ready to create an app?</strong>
-    <p>
-      Start with Ionic
-      <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a>
-    </p>
-  </div>
+    <ion-list>
+      <ion-item>
+        <ion-select
+          label="Seleccione Figura"
+          placeholder="Figura"
+          (ionChange)="obtenerValor($event)"
+        >
+          <ion-select-option value="t">Triangulo</ion-select-option>
+          <ion-select-option value="c">Circulo</ion-select-option>
+        </ion-select>
+      </ion-item>
 
-  <app-empleado-honorarios></app-empleado-honorarios>
+      <ion-item *ngIf="figuraSeleccionada === 't'">
+        <app-triangulo></app-triangulo
+      ></ion-item>
+      <ion-item *ngIf="figuraSeleccionada === 'c'">
+        <app-circulo></app-circulo>
+      </ion-item>
+    </ion-list>
+  </div>
 </ion-content>

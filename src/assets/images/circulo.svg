@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="79.26899mm"
+   height="79.26899mm"
+   viewBox="0 0 79.26899 79.26899"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.184323,-56.605925)">
+    <g
+       id="g2"
+       transform="rotate(1.8046683,73.818817,96.240417)"
+       style="fill:#ffffff;fill-opacity:1"
+       inkscape:export-filename="circulo.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2"
+         id="path1"
+         cx="73.818817"
+         cy="96.240417"
+         r="38.634144" />
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.68289px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 72.881988,96.80462 21.514844,-8.068794 13.830228,-5.18681 2.23068,-0.836582"
+         id="path2"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.34129"
+       y="114.12716"
+       id="text2"
+       transform="rotate(-19.624965)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.264583"
+         x="53.34129"
+         y="114.12716">r</tspan></text>
+  </g>
+</svg>

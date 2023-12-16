@@ -2,19 +2,6 @@
   <ion-toolbar>
     <ion-title> Perímetro </ion-title>
   </ion-toolbar>
-
-  <!-- <ion-list>
-    <ion-item>
-      <ion-select
-        label="Seleccione Figura"
-        placeholder="Figura"
-        (ionChange)="obtenerValor($event)"
-      >
-        <ion-select-option value="t">Triangulo</ion-select-option>
-        <ion-select-option value="c">Circulo</ion-select-option>
-      </ion-select>
-    </ion-item>
-  </ion-list> -->
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -22,18 +9,6 @@
     <ion-toolbar>
       <ion-title size="large">Perímetro</ion-title>
     </ion-toolbar>
-    <!-- <ion-list>
-      <ion-item>
-        <ion-select
-          label="Seleccione Figura"
-          placeholder="Figura"
-          (ionChange)="obtenerValor($event)"
-        >
-          <ion-select-option value="t">Triangulo</ion-select-option>
-          <ion-select-option value="c">Circulo</ion-select-option>
-        </ion-select>
-      </ion-item>
-    </ion-list> -->
   </ion-header>
 
   <ion-content>
@@ -42,7 +17,7 @@
         <ion-select
           label="Seleccione Figura"
           placeholder="Figura"
-          (ionChange)="obtenerValor($event)"
+          [(ngModel)]="figuraSeleccionada"
         >
           <ion-select-option value="t">Triangulo</ion-select-option>
           <ion-select-option value="c">Circulo</ion-select-option>

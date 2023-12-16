@@ -43,11 +43,6 @@ import { CommonModule } from '@angular/common';
   ],
 })
 export class HomePage {
-  figuraSeleccionada: any;
+  figuraSeleccionada: string = '';
   constructor() {}
-
-  obtenerValor(event: CustomEvent) {
-    this.figuraSeleccionada = event.detail.value;
-    console.log('Valor seleccionado:', this.figuraSeleccionada);
-  }
 }
